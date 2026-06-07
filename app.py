@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import os
 
 import streamlit as st
@@ -176,7 +176,7 @@ if not st.session_state.messages:
         "Try: 'Explain photosynthesis simply' or upload a PDF and ask for a summary."
     )
 
-=======
+
 import streamlit as st
 from ollama import chat
 
@@ -209,12 +209,12 @@ if "messages" not in st.session_state:
     ]
 
 # Display messages
->>>>>>> cf5c435b2d94d9849800a542281455730422b4bf
+
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-<<<<<<< HEAD
+
 if prompt := st.chat_input("Ask ZERO Bot anything..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
@@ -230,7 +230,7 @@ if prompt := st.chat_input("Ask ZERO Bot anything..."):
             st.error(reply)
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
-=======
+
 # Chat Input
 prompt = st.chat_input("Type your message...")
 
@@ -272,4 +272,4 @@ if prompt:
             "content": reply
         }
     )
->>>>>>> cf5c435b2d94d9849800a542281455730422b4bf
+
