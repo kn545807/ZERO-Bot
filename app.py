@@ -254,15 +254,13 @@ if prompt:
         with st.spinner("Thinking..."):
 
             try:
-                response = chat(
-                    model="qwen2.5:1.5b",
-                    messages=st.session_state.messages
-                )
-
-                reply = response["message"]["content"]
+                 reply = generate_reply(
+                    prompt,
+                    st.session_state.pdf_text
+    )
 
             except Exception as e:
-                reply = f"⚠️ Error: {str(e)}"
+                reply = f"⚠ Error: {str(e)}"
 
             st.markdown(reply)
 
