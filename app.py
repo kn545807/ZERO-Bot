@@ -178,7 +178,8 @@ if not st.session_state.messages:
 
 
 import streamlit as st
-from ollama import chat
+from google import genai
+from google.genai import types
 
 # Page Config
 st.set_page_config(
