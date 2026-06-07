@@ -1,0 +1,997 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.102:8501
+  External URL: http://122.161.50.227:8501
+
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\kn545\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\r |
+| untime\scriptrunner\exec_code.py:129 in exec_func_with_error_handling                |
+|                                                                                      |
+| C:\Users\kn545\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\r |
+| untime\scriptrunner\script_runner.py:789 in code_to_exec                             |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:160 in <module>                           |
+|                                                                                      |
+|   157         st.rerun()                                                             |
+|   158                                                                                |
+|   159     st.divider()                                                               |
+| > 160     key_status = "Connected" if get_api_key() else "API key required"          |
+|   161     st.caption(f"Gemini: {key_status}")                                        |
+|   162     st.caption(f"Messages: {len(st.session_state.messages)}")                  |
+|   163                                                                                |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+|                              ... 894 frames hidden ...                               |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
+|                                                                                      |
+| C:\Users\kn545\Desktop\Main Chatbot\app.py:51 in get_api_key                         |
+|                                                                                      |
+|    48                                                                                |
+|    49                                                                                |
+|    50 def get_api_key() -> str | None:                                               |
+| >  51     st.sidebar.write("API Key Found:", bool(get_api_key()))                    |
+|    52     """Read the API key from Streamlit secrets or the environment."""          |
+|    53     try:                                                                       |
+|    54         return st.secrets.get("AQ.Ab8RN6KGx-qSBZwvFYh-9ZkuvM-e1WTfqnsATTLiwYXw |
++--------------------------------------------------------------------------------------+
+RecursionError: maximum recursion depth exceeded
